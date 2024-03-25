@@ -1,0 +1,19 @@
+.basket-delete {
+  cursor: pointer;
+}
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-wrapper {
+  display: flex;
+  gap: 14px;
+}
+.basket-quantity {
+  background-color: #aa00ff;
+  border-radius: 50%;
+  padding: 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}

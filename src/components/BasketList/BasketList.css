@@ -1,0 +1,38 @@
+.basket-list {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  max-width: 90%;
+  transform: translate(-50%, -50%);
+
+  animation: show 500ms ease-in-out;
+}
+.basket-close {
+  cursor: pointer;
+}
+.total-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total-order {
+  color: #aa00ff;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@keyframes show {
+  from {
+    top: 25%;
+    left: 70%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+}
